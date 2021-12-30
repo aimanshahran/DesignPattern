@@ -1,1 +1,1 @@
-This is my lab answers for the WIF3007 Design Patterns course. 
+This is my lab answers for the Design Patterns course. 
