@@ -7,7 +7,7 @@ The ItemManager class acts as an invoker for the application. It invokes operati
 - Contains a Command object within
 - Invokes the Command object’s execute method as part of its process method implementation
 - Provides a setCommand method to allow client objects to configure it with a Command object
-- 
+
 The CommandTest client class uses the invoker ItemManager to get its add item and delete item requests processed. To keep the application simple, no database access logic is implemented. Both Item and Category objects are implemented to simply display a message.
 
 Add a move functionality that allows an item to be moved from one category to another. Implement the move functionality as a combination of delete followed by an add operation. Both delete and add operations must be executed together as a unit to provide the move functionality. 
