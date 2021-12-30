@@ -1,4 +1,4 @@
-package pkg17207145.lab1;
+package aifanshahran.designpattern.lab1;
 
 import java.util.Scanner;
 
