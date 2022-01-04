@@ -12,8 +12,10 @@ public class BusinessAccount {
     private String accountNumber;
     private double balance;
     public void setState(State newState) {
-        objState = newState; }
-        public State getState() { return objState;
+        objState = newState; 
+    }
+   public State getState() { 
+            return objState;
     }
     public String getAccountNumber() {
         return accountNumber; 
