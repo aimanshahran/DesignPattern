@@ -36,4 +36,7 @@ public class BusinessAccount {
     public void setBalance(double newBalance) { 
         balance = newBalance;
     } 
+    public void displayAccount() { 
+        System.out.println("Account number = " + accountNumber + ", Balance = " + balance);
+    } 
 }
